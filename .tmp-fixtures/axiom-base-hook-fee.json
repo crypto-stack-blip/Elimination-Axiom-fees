@@ -1,0 +1,141 @@
+{
+  "label": "hook-fee",
+  "description": "Terminal-assembled buy on a token-2022 quote mint. The fee instrument is a transferChecked under the token-2022 program. Transaction-level mechanics are identical to variant A; the open question is whether the mint itself carries a transfer-fee/hook extension, which would re-impose the charge on any transfer, including a rebuilt one.",
+  "annotations": {
+    "archetype": "hook_fee_surface",
+    "note": "fee instrument runs under the token-2022 program; mint extension audit required"
+  },
+  "signature": "GKeoxSsUCLTv5ZA1WTP8qNSgyg2dMYHCdckKZV6vAcJS",
+  "slot": 319214871,
+  "blockTime": 1764133806,
+  "transaction": [
+    "AamvLC/p2OpYz0b6S3q8w/kvny18RKUUK/q9X6t8IyCzmAF3+jXlGI3SWSQvAmZe8/7GO5qg5rsjhVLpYRqQiw4BAAgQIItPinu67EGZv0NI9ipnTArQvPydKWkE17SSV/T3/n45e4jx5TsuMSNCye+NH3ecQt1E43kDkFClbMUfQtlyUz/lFyroaU/bDZ9AVqUiErNrc/AGHfcWsAKDYpUdoSDCZZjqKssDNPzf/kFGGenwB+rYOQyJYJwthOClU7/rchhz9/6ZTM0kApATt6iaaL8DlOUZ+UMNSpT2G2f9gMDSCgI4C/QhSZms1eauvY8JztPX6xTQJjta+xZ71847Anq1je2ZyNXhS+N4rwSkC0PbStUspe51pBXb6BuYOVwFhiTT+v0vpmhmdBPVBLsXdedGjCtp0sTB5dYycOI5G4ZzZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAldnogjZ6nJZKNAGYttEJJ8aUFlY9/viei2/+Ba6Dx7KZFT8oCYc/rP/s4+5U0+w5BI6CXrNbrp7C79nnQM3baAMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAA5UpwlSiDn2HAubhgeYkcE5IW5Hpxti+3O+xyFpRYdF4MFN78gl7GdpQlCBi7ZUBl9CmNMVbVcbTU+AkMGOmoYwbd9uHXZaGT2cvhRs7reawctIXtX1s3kTqM9YV+/wCpBt324e51j94YQl285GzN2rYa/E2DuQ0n/r35KNihi/wN4en58qVkJcAFFniwVxRzTKrXyKCS7nvcFFv3O0zqoAMLAAkDwNQBAAAAAAANDgUAAgMHBgoJAQgODwwNGGYGPRIB2uvqQEtMAAAAAACg78A7AAAAAA8EAwkEAA0MgJaYAAAAAAAJAAAA"
+  ],
+  "meta": {
+    "err": null,
+    "fee": 5000,
+    "preBalances": [
+      5000000000,
+      0,
+      1000000,
+      2039280,
+      2039280,
+      2039280,
+      2039280,
+      1640000,
+      1640000,
+      1000000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2039280
+    ],
+    "postBalances": [
+      4999995000,
+      0,
+      1000000,
+      2039280,
+      2039280,
+      2039280,
+      2039280,
+      1640000,
+      1640000,
+      1000000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2039280
+    ],
+    "preTokenBalances": [
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "B5xU31nV4474MvE6VfAGKjxAxqpdJbRZrYEHVxfGxSEu",
+        "uiTokenAmount": {
+          "amount": "2000000000"
+        }
+      },
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "0"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "B5xU31nV4474MvE6VfAGKjxAxqpdJbRZrYEHVxfGxSEu",
+        "uiTokenAmount": {
+          "amount": "12500000000000"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "800000000000"
+        }
+      },
+      {
+        "owner": "6gw98zJcoyWTo8XtAqaH77NhdDuiPkNciTikDDUNGLv4",
+        "mint": "B5xU31nV4474MvE6VfAGKjxAxqpdJbRZrYEHVxfGxSEu",
+        "uiTokenAmount": {
+          "amount": "100000000000"
+        }
+      }
+    ],
+    "postTokenBalances": [
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "B5xU31nV4474MvE6VfAGKjxAxqpdJbRZrYEHVxfGxSEu",
+        "uiTokenAmount": {
+          "amount": "990000000"
+        }
+      },
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "4987500"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "B5xU31nV4474MvE6VfAGKjxAxqpdJbRZrYEHVxfGxSEu",
+        "uiTokenAmount": {
+          "amount": "13500000000000"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "799995012500"
+        }
+      },
+      {
+        "owner": "6gw98zJcoyWTo8XtAqaH77NhdDuiPkNciTikDDUNGLv4",
+        "mint": "B5xU31nV4474MvE6VfAGKjxAxqpdJbRZrYEHVxfGxSEu",
+        "uiTokenAmount": {
+          "amount": "100010000000"
+        }
+      }
+    ],
+    "innerInstructions": [],
+    "logMessages": [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [1]",
+      "Program log: Route: pumpswap buy",
+      "Program log: Swap: amount_in=1000000000 base_out=4987500 lp_fee_bps=25",
+      "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA success",
+      "Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [1]",
+      "Program log: TransferChecked: 10000000 of B5xU31nV4474MvE6VfAGKjxAxqpdJbRZrYEHVxfGxSEu",
+      "Program log: TransferFee context: mint extension audit required before removal",
+      "Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb success"
+    ]
+  }
+}

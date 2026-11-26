@@ -1,0 +1,142 @@
+{
+  "label": "explicit-fee-transfer",
+  "description": "Terminal-assembled buy with the platform fee as a standalone SPL transferChecked to the treasury. The settlement swap (pump.fun AMM buy) is directly callable; the fee instruction is not part of settlement.",
+  "annotations": {
+    "archetype": "explicit_fee_transfer",
+    "note": "quote leg is canonical WSOL; fee instrument is a plain SPL transfer"
+  },
+  "signature": "2cuG9VUohseTPKphCkGJ24hkNMuEkcM7Twfb4W1Vspa9",
+  "slot": 319214871,
+  "blockTime": 1764133806,
+  "transaction": [
+    "ARzIWfnx3r3bzOMTl8df6A2syMlXxgwBwUik61to677rqhBsV7+G9QobkJJ+8l3Awnt5QM8VYSsO3N1XzkUCTgMBAAcQIItPinu67EGZv0NI9ipnTArQvPydKWkE17SSV/T3/n45e4jx5TsuMSNCye+NH3ecQt1E43kDkFClbMUfQtlyUz/lFyroaU/bDZ9AVqUiErNrc/AGHfcWsAKDYpUdoSDCRpWsxFhMNZmtGy2iitpFv4eGn0muaq9i09gifAbwwPwCOAv0IUmZrNXmrr2PCc7T1+sU0CY7WvsWe9fOOwJ6tY3tmcjV4UvjeK8EpAtD20rVLKXudaQV2+gbmDlcBYYkyyUykouwTWwY3Q+9Noz/t2MZRsVkPFcgpwrdzJfN0+XT+v0vpmhmdBPVBLsXdedGjCtp0sTB5dYycOI5G4ZzZeJzDLvgKvFW7OwAHj/IAF60gkNTq3faLk9lFi0wmVxJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACZFT8oCYc/rP/s4+5U0+w5BI6CXrNbrp7C79nnQM3baAMGRm/lIRcy/+ytunLDm+e8jOW7xfcSayxDmzpAAAAA5UpwlSiDn2HAubhgeYkcE5IW5Hpxti+3O+xyFpRYdF4MFN78gl7GdpQlCBi7ZUBl9CmNMVbVcbTU+AkMGOmoYwabiFf+q4GE+2h/Y0YYwDXaxDncGus7VZig8AAAAAABBt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKl2Yi9n4aMdn5HadDAyVGGnVAH6EH/BMnRM1vTmMkVJKQQLAAkDwNQBAAAAAAANDgQAAgMHBQoOAQkPDwwNGGYGPRIB2uvqQEtMAAAAAACg78A7AAAAAA8EAw4IAA0MgJaYAAAAAAAJAAAADwMGAAABCQ=="
+  ],
+  "meta": {
+    "err": null,
+    "fee": 5000,
+    "preBalances": [
+      5000000000,
+      0,
+      1000000,
+      2039280,
+      2039280,
+      2039280,
+      2039280,
+      1640000,
+      0,
+      1000000,
+      0,
+      0,
+      0,
+      0,
+      2039280,
+      561672
+    ],
+    "postBalances": [
+      5000556672,
+      0,
+      1000000,
+      2039280,
+      2039280,
+      2039280,
+      2039280,
+      1640000,
+      0,
+      1000000,
+      0,
+      0,
+      0,
+      0,
+      2039280,
+      0
+    ],
+    "preTokenBalances": [
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "2000000000"
+        }
+      },
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "0"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "12500000000000"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "800000000000"
+        }
+      },
+      {
+        "owner": "6gw98zJcoyWTo8XtAqaH77NhdDuiPkNciTikDDUNGLv4",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "100000000000"
+        }
+      }
+    ],
+    "postTokenBalances": [
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "990000000"
+        }
+      },
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "4987500"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "12501000000000"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "799995012500"
+        }
+      },
+      {
+        "owner": "6gw98zJcoyWTo8XtAqaH77NhdDuiPkNciTikDDUNGLv4",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "100010000000"
+        }
+      }
+    ],
+    "innerInstructions": [],
+    "logMessages": [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [1]",
+      "Program log: Route: pumpswap buy",
+      "Program log: Swap: amount_in=1000000000 base_out=4987500 lp_fee_bps=25",
+      "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: TransferChecked: 10000000 of So11111111111111111111111111111111111111112",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success"
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "label": "router-skim",
+  "description": "Terminal-assembled buy routed through the assembly router. The router CPIs the settlement program with the user’s arguments, then diverts fee_bps of the quote leg to its treasury. The settlement instruction is visible in the inner-instruction trace and is directly callable.",
+  "annotations": {
+    "archetype": "router_skim",
+    "note": "fee is declared in router args (fee_bps=100) and executed post-CPI"
+  },
+  "signature": "AomxTrNbgTwdaKbAUiVWDXzcRFTiUDpVQJQ9QyuuNCwf",
+  "slot": 319214871,
+  "blockTime": 1764133806,
+  "transaction": [
+    "ASCHOgOaSB0NOcJQccS5giQB4hrfG71YAW/WxW+FnGnjktVBY7z+y0Lwh2o79XWsBTL+b4SrxU4ATQ0r6OKl2wABAAQMIItPinu67EGZv0NI9ipnTArQvPydKWkE17SSV/T3/n4/5Rcq6GlP2w2fQFalIhKza3PwBh33FrACg2KVHaEgwkaVrMRYTDWZrRstooraRb+Hhp9JrmqvYtPYInwG8MD8VIVNheX/YxII3V8xSdhL8sa+Sw809szD+oli7LD7BjkCOAv0IUmZrNXmrr2PCc7T1+sU0CY7WvsWe9fOOwJ6tY3tmcjV4UvjeK8EpAtD20rVLKXudaQV2+gbmDlcBYYk0/r9L6ZoZnQT1QS7F3XnRowradLEweXWMnDiORuGc2Xicwy74CrxVuzsAB4/yABetIJDU6t32i5PZRYtMJlcSQKNSCV81ERWNMKGXeceIfAEZ7i4eUj6lTEX5NdfqEjBmRU/KAmHP6z/7OPuVNPsOQSOgl6zW66ewu/Z50DN22gDBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAAabiFf+q4GE+2h/Y0YYwDXaxDncGus7VZig8AAAAAABw7H0O3no8wQa2rJ/sIwjmfTDefWHbK1QtfCd6LOOZpYCCgAJA8DUAQAAAAAACAoAAgEEBgUJCwMHIrkU6wGO17ILQEtMAAAAAACgxEoAAAAAAGQArdUGEwAAAAA="
+  ],
+  "meta": {
+    "err": null,
+    "fee": 5000,
+    "preBalances": [
+      5000000000,
+      0,
+      2039280,
+      2039280,
+      1000000,
+      2039280,
+      2039280,
+      1640000,
+      0,
+      0,
+      2039280,
+      0
+    ],
+    "postBalances": [
+      4999995000,
+      0,
+      2039280,
+      2039280,
+      1000000,
+      2039280,
+      2039280,
+      1640000,
+      0,
+      0,
+      2039280,
+      0
+    ],
+    "preTokenBalances": [
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "2000000000"
+        }
+      },
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "0"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "12500000000000"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "800000000000"
+        }
+      },
+      {
+        "owner": "6gw98zJcoyWTo8XtAqaH77NhdDuiPkNciTikDDUNGLv4",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "100000000000"
+        }
+      }
+    ],
+    "postTokenBalances": [
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "990000000"
+        }
+      },
+      {
+        "owner": "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "4987500"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "13500000000000"
+        }
+      },
+      {
+        "owner": "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+        "mint": "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+        "uiTokenAmount": {
+          "amount": "799995012500"
+        }
+      },
+      {
+        "owner": "6gw98zJcoyWTo8XtAqaH77NhdDuiPkNciTikDDUNGLv4",
+        "mint": "So11111111111111111111111111111111111111112",
+        "uiTokenAmount": {
+          "amount": "100010000000"
+        }
+      }
+    ],
+    "innerInstructions": [
+      {
+        "index": 1,
+        "instructions": [
+          {
+            "programId": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+            "accounts": [
+              "9fPEgChRemxZSxaVnCbqRuAcd5kR5xEhwFZj7jpg2yS",
+              "3C3FhX1MieqJ8WtEpg41zWebcMRQHonrRkB8Qo8A96W9",
+              "5JRJ3CYfAbbX6ttPJysxqt1oLsRzBUA8F1DrZqTnVddT",
+              "5kXuuAT6Z2eRxJzWvNx1y3YWS1bdro9s1AMhLSiS1mkX",
+              "FGV11bv6T3n5ropXFViptrsgb7wGhfQBwnirWADp9rzg",
+              "AZ2czvSG4L2zqq4noPoikQoAH4CrTy5ECYWGus9dJZAs",
+              "BJaAmfmfyVotJSGVQqvU4dg9Dp4oqgRjSuJ8NaQL984o",
+              "So11111111111111111111111111111111111111112",
+              "4sPVdotZcKXjyyhceNkxAHzQdgyX5D7j6sBYziWbK64a",
+              "11111111111111111111111111111111",
+              "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+              "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+              "GS4CU59F31iL7aR2Q8zVS8DRrcRnXX1yjQ66TqNVQnaR",
+              "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA"
+            ],
+            "data": "AJTQ2h9DXrBm5duw7yU5honjUoYmGTjyh"
+          }
+        ]
+      }
+    ],
+    "logMessages": [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program AxmR11oUTKQbCaXbMzb4YN3cWD4dTqFo4nMw3zHR6vk invoke [1]",
+      "Program log: axiom-router: route=pumpswap fee_bps=100",
+      "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [1]",
+      "Program log: Swap: amount_in=1000000000 base_out=4987500 lp_fee_bps=25",
+      "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA success",
+      "Program log: skim: 10000000 -> fee_treasury",
+      "Program AxmR11oUTKQbCaXbMzb4YN3cWD4dTqFo4nMw3zHR6vk success"
+    ]
+  }
+}
